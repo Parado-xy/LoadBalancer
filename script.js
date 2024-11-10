@@ -203,5 +203,8 @@ ws.onerror = (error) => {
 
 ws.onclose = () => {
     console.log('Disconnected from metrics WebSocket');
-    // Implement reconnection logic here if needed
+    //reconnection logic here if needed
+    setTimeout(() => {
+        window.location.reload();
+    }, 5000);
 };
