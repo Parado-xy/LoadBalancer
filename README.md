@@ -13,10 +13,7 @@ This application is a load balancer with a WebSocket-based dashboard that monito
 ```
 .
 ├── index.html               # Frontend HTML for the monitoring dashboard
-├── server.js                # Main load balancer and WebSocket server
-├── src
-│   ├── middleware           # Middleware configuration (not included in this code)
-│   └── router               # Routers for handling application requests (not included)
+├── balancer.js              # Main load balancer and WebSocket server
 └── script.js                # Client-side JavaScript for rendering charts and metrics
 ```
 
